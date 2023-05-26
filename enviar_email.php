@@ -11,8 +11,8 @@
    $mail->Password = 'wYi0x]fS50GF';
    $mail->setFrom('developer@grobdi.com.pe', 'Sistemas');
    $mail->addReplyTo('developer@grobdi.com.pe', 'Sistemas');
-   $mail->addAddress('a.culqui02@gmail.com', 'Ventas');
-   $mail->Subject = 'Checking if PHPMailer works';
+   $mail->addAddress('ventas@grobdi.com.pe', 'Ventas');
+   $mail->Subject = 'Mensaje de pagina web';
    $mail->isHTML(true);
 
    $htmlBody = '
