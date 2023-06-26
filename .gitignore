@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos
 
 recetas/*
+.DS_Store
+assets/.DS_Store
+assets/img/.DS_Store
+assets/img/grobdi/.DS_Store
 
 ### Linux ###
 *~
